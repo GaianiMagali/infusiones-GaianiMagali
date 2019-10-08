@@ -24,7 +24,7 @@ public class TestRoborista {
 
     @Test
     public void testRoborista() {
-        roborista.preparar(teBlanco);
+        roborista.preparacion(teBlanco);
         String consola = this.consoleContent.toString();
 
         Assert.assertTrue(consola.indexOf("Calentando el agua")!=-1);
